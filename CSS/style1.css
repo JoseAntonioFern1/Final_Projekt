@@ -226,16 +226,42 @@ second-banner {
     float:left; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto; margin: 5px; padding: 5px auto;
 }
 
-.c_Eltern ul {
-    text-decoration: none;
-    list-style: none outside none;
-    margin: 10px;
-}
 .c_Eltern li {
     align-items: center;
     flex-direction: row;
     letter-spacing: 1px;
     word-spacing: 3px;
+}
+
+.icon-text-icon ul {
+    text-decoration: none;
+    list-style: none outside none;
+    margin: 8px;
+}
+.icon-text-icon li {
+    display:inline-flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.icon-text a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+
+.c_ulKind {
+    flex: 1;
+    text-decoration: none;
+    list-style: none outside none;
+    margin: 8px;
+}
+
+.c_ulKind li {
+display:inline;
+text-orientation: center;
+
 }
 
 @media (max-width:581px) {
