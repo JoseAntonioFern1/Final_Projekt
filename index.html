@@ -27,11 +27,11 @@
            <div class="c_Kind2">
             <nav class="c_Navegacion">
                 <ul id="id_ulMenu"> 
-                    <li><a href="./#">Home</a></li> 
-                    <li><a href="./#information">Über Antalya</a></li>
-                    <li><a href="./#routen">Routen in Antalya</a></li>
-                    <li><a href="./#hilfe">Hilfe</a></li>
-                    <li><a href="./#kontak">Kontak</a></li>
+                    <li><a href="./index.html">Home</a></li> 
+                    <li><a href="#information>Über Antalya</a></li>
+                    <li><a href="#routen">Routen in Antalya</a></li>
+                    <li><a href="#hilfe">Hilfe</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
                 </ul>
             </nav>
            </div>
@@ -47,7 +47,7 @@
                     <h6 style="text-align: center;">JQSlider mit JQuery</h6>
                     <div class="c_flex_Eltern">
                             <div class="c_flex-item-1_Kind">
-                                <div class="Slider" width="260" height="240">
+                                <div class="Slider" width="450" height="240">
                                     <div><img src="./Images/Img/Slider1.jpg" alt="Slider1" width="450" height="280"></div>
                                     <div><img src="./Images/Img/Slider2.jpg" alt="Slider2" width="450" height="280"></div>
                                     <div><img src="./Images/Img/Slider3.jpg" alt="Slider3" width="450" height="280"></div>
@@ -59,11 +59,14 @@
                 </div>
                 <div class="c_Kind2_B">
                     <div clas="c_Eltern">
-                        <div class="c_Kind2">
+                        <div class="c_Kind1">
                             <div class="c_flex-item-4_Kind"><!-- Kind Elemente-->
                                 <button type="submit" title="Boton_de_Informacion" value="" onclick=window.location.href='./JS/Calculadora_Project/Calculadora.html'>Rechenmaschine</button>
                                 <p id="demo"></p><!--<a href="./Calculadora_Project/index.html">Calculadora</a> -->
                             </div>
+
+                        </div> 
+                        <div class="c_Kind2">
                             <form id="id_form">
                                 <h3 style="text-align: center";>Ihre personachliche Information:</h3><br>
                                 <label>Vorname:</label>
@@ -86,8 +89,6 @@
                                 <input type="submit" value="Reservieren">
                                 <input type="button" value="Delete">
                             </form>
-
-                            </div> 
                         </div>
                     </div>
                 </div>
@@ -168,38 +169,52 @@
             </div>
         </div>
     </section>
+
     <footer class="first-banner">
-        <div class="icon-text">
-            <div class="icon-text-icon" style="text-align: center;">
-                <ul><li><a href="#">Home</a></li>
-                    <li><a href="#info">Antalya-Information</a></li>
-                    <li><a href="#routen">Routen Antalyas</a></li>
-                    <li><a href="#hoteles">Antalya-Hoteles</a></li>
-                </ul>
+        <div class ="c_Elter2">
+            <div class="c_Kind1" style="background-color: rgb(172, 5, 5);">
+                <div class="icon-text">
+                    <div class="icon-text-icon" style="text-align: center;">
+                        <ul><li><a href="#">Home  </a></li>
+                            <li><a href="#info"> Antalya-Information  </a></li>
+                            <li><a href="#routen"> Routen Antalyas  </a></li>
+                            <li><a href="#hoteles"> Antalya-Hoteles </a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="c_Eltern">
-                <ul>
-                    <li><a href="mailto:tony_verdu@hotmail.com" target="_black"> <img src="./Images/Logos/mail1.png" alt="Mail"></a></li>
-                    <li><a href="http://www.facebook.com/" target="_black"><img src="./Images/Logos/Facebook1.jpg" alt="Mail"></a></li>
-                    <li><a href="http://www.twiter.com" target="_black"><img src="./Images/Logos/Twitter-Logo.png" alt="Mail"></a></li>
-                    <li><a href="http://www.youtube.com" target="_black"><img src="./Images/Logos/YouTubelogo.png" alt="Mail"></a></li>
-                </ul>
+            <div class="c_Kind1" style="background-color: rgb(172, 5, 5);">
+                    <ul class="c_ulKind">
+                        <li><a href="mailto:tony_verdu@hotmail.com" target="_black"> <img src="./Images/Logos/mail1.png" alt="Mail"></a></li>
+                        <li><a href="http://www.facebook.com/" target="_black"><img src="./Images/Logos/Facebook1.jpg" alt="Mail"></a></li>
+                        <li><a href="http://www.twiter.com" target="_black"><img src="./Images/Logos/Twitter-Logo.png" alt="Mail"></a></li>
+                        <li><a href="http://www.youtube.com" target="_black"><img src="./Images/Logos/YouTubelogo.png" alt="Mail"></a></li>
+                    </ul>
             </div>
         </div>
+        </div>
     </footer>
+
     <footer class="c_derechosreservados">
-        <scan>@meineAntalia 2021. alle Rechte vorbehalten 2020-2025</scan>
-        <img src="./Images/Logos/We_Love_ Antalya.png" alt="We Love Antalya">
+        <div class="c_Eltern">
+            <div class="c_Kind1" style="background-color: darkred;">
+                <img src="./Images/Logos/We_Love_ Antalya.png" alt="We Love Antalya">
+            </div>
+            <div class ="c_Kind2" style="background-color: darkred; font-size: 10px;">
+                <scan>@meineAntalia 2021. alle Rechte vorbehalten 2020-2025</scan>
+            </div>
+        </div>
     </footer>
 
     <script>
         $(document).ready(function(){ $('.Slider').bxSlider({ mode: 'fade', captions: true,  auto: true, autoControls: true, stopAutoOnClick: true, slideWidth: 450});
         });
     </script>
-        <script>
+        
+    <script>
             function myFunction() {
               document.getElementById("demo").innerHTML ="./JS/Calculadora_Project/Calculadora.html";
             }
-        </script>
+    </script>
 </body>
 </html>
