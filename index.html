@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Biespiel Mini Webpage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- Call to Library of jQuery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- <link rel="JScript" href="./JScript/main.js"> -->
+    <script src='./JS/scripts.js'></script>
+
+    <!-- link nach doc CSS style1 -->
+    <link rel='stylesheet' type='text/css' media='screen' href='./CSS/style1.css'>
+    
+</head>
+<body>
+    <header class="c_header">
+       <div class="c_Eltern">
+           <div class="c_Kind1">
+                <img src="./Images/Logos/Antallya_logo1_klein.png" alt="Logo von Antalya">
+           </div>  
+           <div class="c_Kind2">
+            <nav class="c_Navegacion">
+                <ul id="id_ulMenu"> 
+                    <li><a href="./#">Home</a></li> 
+                    <li><a href="./#information">Über Antalya</a></li>
+                    <li><a href="./#routen">Routen in Antalya</a></li>
+                    <li><a href="./#hilfe">Hilfe</a></li>
+                    <li><a href="./#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+           </div>
+       </div>
+       <div class="c_Elter2">
+        <div class=c_Kind1_E2>
+            <img src="./Images/Img/antalya.png" alt="Imagen Antalya" width="100%" height="100%">
+        </div>
+        <div class="c_Kind2_E2">
+            <div class= "c_Eltern">
+                <div class="c_Kind1">
+                    <h4 style="text-align: center;">Ein Biespiel von einem Slider</h4>
+                    <h6 style="text-align: center;">JQSlider mit JQuery</h6>
+                    <div class="c_flex_Eltern">
+                            <div class="c_flex-item-1_Kind">
+                                <div class="Slider" width="260" height="240">
+                                    <div><img src="./Images/Img/Slider1.jpg" alt="Slider1" width="450" height="280"></div>
+                                    <div><img src="./Images/Img/Slider2.jpg" alt="Slider2" width="450" height="280"></div>
+                                    <div><img src="./Images/Img/Slider3.jpg" alt="Slider3" width="450" height="280"></div>
+                                    <div><img src="./Images/Img/Slider4.jpg" alt="Slider4" width="450" height="280"></div>
+                                    <div><img src="./Images/Img/Slider5.jpg" alt="Slider5" width="450" height="280"></div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="c_Kind2_B">
+                    <div clas="c_Eltern">
+                        <div class="c_Kind2">
+                            <div class="c_flex-item-4_Kind"><!-- Kind Elemente-->
+                                <button type="submit" title="Boton_de_Informacion" value="" onclick=window.location.href='./JS/Calculadora_Project/Calculadora.html'>Rechenmaschine</button>
+                                <p id="demo"></p><!--<a href="./Calculadora_Project/index.html">Calculadora</a> -->
+                            </div>
+                            <form id="id_form">
+                                <h3 style="text-align: center";>Ihre personachliche Information:</h3><br>
+                                <label>Vorname:</label>
+                                <input type="text" placeholder="Vorname"><br>
+                                <label>Nachname:</label>
+                                <input type="text" readonly><br><br>
+                                <label>Passwort:</label>
+                                <input type="password" autofocus><br><br>
+                                <label>Personen:</label>
+                                <input type="number" max="8" min="0" value="0">
+                                <input type="checkbox"><br>
+                                <span>Hiermit stimmst du unserer AGB zu.</span><br><br>
+                                <span>Bitte wähle deine Bezahlung:</span><br>
+                                <select>
+                                    <option>-</option>
+                                    <option>Klarna</option>
+                                    <option>PayPal</option>
+                                    <option>Kreditkarte</option>
+                                </select><br><br>
+                                <input type="submit" value="Reservieren">
+                                <input type="button" value="Delete">
+                            </form>
+
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <section class="c_sectionPrincipal">
+        <div class="c_Eltern">
+            <div class="c_Kind1_A">                    
+                <article id="id_articulo">
+                    <hgroup><h2 class="hiper2">Erster Artikel</h2></hgroup>
+                    <time datetime="10-11-2021">Veröffentlicht am 10-11-2021</time>
+                    <h3 class="hiper3">Ein Blick des ersten Artikels</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ullam dolor libero corrupti enim, harum minus quo excepturi sed, repellendus et. Rerum itaque eum dolorem sapiente voluptatem tempora corrupti animi!
+                    </p>
+                    <footer class="comentarios"><p class="pcomentarios">Kommentare (0)</p>
+                    </footer>
+                </article>
+                <article>
+                    <hgroup><h2 class="hiper2">Zweiter Artikel</h2></hgroup>
+                    <time datetime="10-11-2021">Veröffentlicht am 10-11-2021</time>
+                    <h3 class="hiper3">Ein Blick des zweiten Artikels</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ullam dolor libero corrupti enim, harum minus quo excepturi sed, repellendus et. Rerum itaque eum dolorem sapiente voluptatem tempora corrupti animi!
+                    </p>
+                    <footer class="comentarios"><p class="pcomentarios">Kommentare (10)</p>
+                    </footer>
+                </article>
+            </div>
+            <div class="c_Kind2">
+                <div class="c_Eltern">
+                    <div class="c_Kind1">
+                    <aside class="columna">
+                        <hgroup><h2 class="h2archivos">Archive</h2>
+                        </hgroup>
+                        <blockquote cite="Antalya">
+                            <address style="text-align: center;">
+                                <a href="https://de.wikipedia.org/wiki/Antalya" target="_blank">kennenlernen Antalya?</a>
+                            </address>
+                        </blockquote>
+                        <hgroup><h2 class="h2acercade">Über ... </h2> 
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, deserunt alias modi culpa vero dolor facere facilis nesciunt. Voluptas aliquid provident fugit expedita quisquam eveniet error tempora quas quasi. Amet?
+                            </p>  
+                        </hgroup>
+                    </aside>
+                    </div>
+                    <div class="c_Kind2">
+                        <h1 style="text-align: center;">Unsere Angebot der Woche</h1><br><br><br>
+                        <img src="./Images/Img/AntalyaHotel.jpg" alt="Ofertas Hoteles"><br>
+                        <section class="one-third">
+                            <ol style="background-color: rgb(205, 247, 247);">
+                                <li>
+                                    <div class="one-third-padding" id="routen1">
+                                        <h4>Unsere Route Antalya 1: Yivli Minare Mosche</h4>
+                                        <img src="./images/Routen Antalyas/Route1-yivli-minare-cami.jpg" alt="Yivli Minare Mosche" width="30%" height="30%">
+                                        <p><b>Yivli Minare Moschee</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptatibus? </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="one-third-padding" id="routen2">
+                                        <h4>Unsere Route Antalya 2: Der Strand Konyaaltı</h4>
+                                        <img src="./images/Routen Antalyas/Route2-konyaalti-plaji.jpg" alt="Der Strand Konyaaltı" width="30%" height="30%">
+                                        <p><b>Yivli Minare Moschee</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptatibus? </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="one-third-padding" id="routen3">
+                                        <h4>Unsere Route Antalya 3: Der Kaputaş Strand</h4>
+                                        <img src="./images/Routen Antalyas/Route3-kaputas-plaji.jpg" alt="yivli-minare-cami" width="30%" height="30%">
+                                        <p><b>Der Kaputaş Strand</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, voluptatibus? </p>
+                                    </div> 
+                                </li>
+                            </ol>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="first-banner">
+        <div class="icon-text">
+            <div class="icon-text-icon" style="text-align: center;">
+                <ul><li><a href="#">Home</a></li>
+                    <li><a href="#info">Antalya-Information</a></li>
+                    <li><a href="#routen">Routen Antalyas</a></li>
+                    <li><a href="#hoteles">Antalya-Hoteles</a></li>
+                </ul>
+            </div>
+            <div class="c_Eltern">
+                <ul>
+                    <li><a href="mailto:tony_verdu@hotmail.com" target="_black"> <img src="./Images/Logos/mail1.png" alt="Mail"></a></li>
+                    <li><a href="http://www.facebook.com/" target="_black"><img src="./Images/Logos/Facebook1.jpg" alt="Mail"></a></li>
+                    <li><a href="http://www.twiter.com" target="_black"><img src="./Images/Logos/Twitter-Logo.png" alt="Mail"></a></li>
+                    <li><a href="http://www.youtube.com" target="_black"><img src="./Images/Logos/YouTubelogo.png" alt="Mail"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <footer class="c_derechosreservados">
+        <scan>@meineAntalia 2021. alle Rechte vorbehalten 2020-2025</scan>
+        <img src="./Images/Logos/We_Love_ Antalya.png" alt="We Love Antalya">
+    </footer>
+
+    <script>
+        $(document).ready(function(){ $('.Slider').bxSlider({ mode: 'fade', captions: true,  auto: true, autoControls: true, stopAutoOnClick: true, slideWidth: 450});
+        });
+    </script>
+        <script>
+            function myFunction() {
+              document.getElementById("demo").innerHTML ="./JS/Calculadora_Project/Calculadora.html";
+            }
+        </script>
+</body>
+</html>
