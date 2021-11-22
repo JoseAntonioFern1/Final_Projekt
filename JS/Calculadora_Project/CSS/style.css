@@ -1,0 +1,42 @@
+* {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    outline: none;
+}
+.c_sect_calcu {
+    display:inline-block; /* el dice que flex */
+    background-color: rgb(97, 97, 97);
+    padding: 15px 20px;
+    margin: 20px 25px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.c_sect_calcu input[type="button"], button {
+    width:40px; height: 40px;
+    margin: 3px 0px;
+}
+
+.c_borrar_display button {
+    width:80px; height: 40px;
+    margin: 3px 0px; padding: 12px 20px;
+
+}
+
+.c_calcular_display input {
+    width:80px; height: 40px;
+    margin: 3px 0px; padding: 12px 20px;
+
+}
+#id_display {
+    height: 40px; width: 136px; background-color:rgb(253, 246, 230);
+    color: blue;
+    font-size: 1.5rem; font-weight: bold;
+    padding: 12px 20px;
+    margin-top: 40px; margin-bottom:20px;
+    border-radius: 4px;
+    border:  2px solid gray;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <section class="c_sect_calcu">
+        <form name="Form_calculadora" id="id_form_calc">
+            <input type="text" name="display" id="id_display" value="">
+            <div>
+                <input type="button" id="id_1" value="1" onclick="f_valor(document.getElementById('id_1').value)">
+                <input type="button" id="id_2" value="2" onclick="f_valor(document.getElementById('id_2').value)">
+                <input type="button" id="id_3" value="3" onclick="f_valor(document.getElementById('id_3').value)">
+                <input type="button" id="id_+" value="+" onclick="f_valor(document.getElementById('id_+').value)">
+            </div>
+            <div>
+                <input type="button" id="id_4" value="4" onclick="f_valor(document.getElementById('id_4').value)">
+                <input type="button" id="id_5" value="5" onclick="f_valor(document.getElementById('id_5').value)">
+                <input type="button" id="id_6" value="6" onclick="f_valor(document.getElementById('id_6').value)">
+                <input type="button" id="id_-" value="-" onclick="f_valor(document.getElementById('id_-').value)">
+            </div>
+            <div>
+                <input type="button" id="id_7" value="7" onclick="f_valor(document.getElementById('id_7').value)">
+                <input type="button" id="id_8" value="8" onclick="f_valor(document.getElementById('id_8').value)">
+                <input type="button" id="id_9" value="9" onclick="f_valor(document.getElementById('id_9').value)">
+                <input type="button" id="id_*" value="*" onclick="f_valor(document.getElementById('id_*').value)">
+            </div>
+            <div>
+                <input type="button" id="id_0" value="0" onclick="f_valor(document.getElementById('id_0').value)">
+                <input type="button" id="id_." value="." onclick="f_valor(document.getElementById('id_.').value)">
+                <input type="button" id="id_/" value="/" onclick="f_valor(document.getElementById('id_/').value)">
+                <input type="button" id="id_%" value="%" onclick="f_valor(document.getElementById('id_%').value)">
+            </div>
+            <div class="c_borrar_display">
+                <button id="id_borrar_display" value="" onclick="document.getElementById('id_borrar_display').value"><bold>C</bold></button>
+            </div>
+            <div class="c_calcular_display">
+                <input type="button" id="id_=" value="=" onclick="f_calcular_display()"></input>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+    </footer>
+
+    <script src="./JS/jsscript.js"></script>
+</body>
+</html>
