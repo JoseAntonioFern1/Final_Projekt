@@ -183,8 +183,8 @@ p {
 .columna blockquote { border: 1px solid black; padding: 40px; margin-bottom: 20px; background-color: #d4f0f2;border:1px solid black;
   
 }
-Antalya.address  { background-color:#faa49e ;
-  
+Antalya.address  { 
+    background-color:#faa49e ;
 }
 
 button {
@@ -253,6 +253,7 @@ second-banner {
 
 .c_ulKind {
     flex: 1;
+    align-items: center;
     text-decoration: none;
     list-style: none outside none;
     margin: 8px;
